@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Supermarket", "6. Superm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Hot Potato", "7. Hot Potato\7. Hot Potato.csproj", "{6990419A-C473-4610-8F08-8A567132D111}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Traffic Jam", "8. Traffic Jam\8. Traffic Jam.csproj", "{7F70DA40-C729-4DA7-A1F0-38992848E16A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{6990419A-C473-4610-8F08-8A567132D111}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6990419A-C473-4610-8F08-8A567132D111}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6990419A-C473-4610-8F08-8A567132D111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F70DA40-C729-4DA7-A1F0-38992848E16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F70DA40-C729-4DA7-A1F0-38992848E16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F70DA40-C729-4DA7-A1F0-38992848E16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F70DA40-C729-4DA7-A1F0-38992848E16A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
