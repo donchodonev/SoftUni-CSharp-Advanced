@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Sum Matrix Elements", "1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Sum Matrix Columns", "2. Sum Matrix Columns\2. Sum Matrix Columns.csproj", "{6EC95F2B-C61B-4CFC-905F-6362864BA24C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Primary Diagonal", "3. Primary Diagonal\3. Primary Diagonal.csproj", "{64DDD9C5-E132-41F3-B462-77C73F9E3A93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Symbol in Matrix", "4. Symbol in Matrix\4. Symbol in Matrix.csproj", "{B7C49144-732C-47E8-99E8-83FC91FDF81E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6EC95F2B-C61B-4CFC-905F-6362864BA24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EC95F2B-C61B-4CFC-905F-6362864BA24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EC95F2B-C61B-4CFC-905F-6362864BA24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DDD9C5-E132-41F3-B462-77C73F9E3A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DDD9C5-E132-41F3-B462-77C73F9E3A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DDD9C5-E132-41F3-B462-77C73F9E3A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DDD9C5-E132-41F3-B462-77C73F9E3A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C49144-732C-47E8-99E8-83FC91FDF81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C49144-732C-47E8-99E8-83FC91FDF81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C49144-732C-47E8-99E8-83FC91FDF81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C49144-732C-47E8-99E8-83FC91FDF81E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
