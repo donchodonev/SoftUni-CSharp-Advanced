@@ -28,14 +28,7 @@ namespace _3._Primary_Diagonal
 
             for (int row = 0; row < n; row++)
             {
-                for (int col = 0; col < n; col++)
-                {
-                    if (col == row)
-                    {
-                        primaryDiagonalSum += matrix[row, col];
-                        break;
-                    }
-                }
+                primaryDiagonalSum += matrix[row, row];
             }
             Console.WriteLine(primaryDiagonalSum);
         }
