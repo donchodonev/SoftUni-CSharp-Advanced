@@ -20,7 +20,7 @@ namespace _7._Knight_Game
 
             int matrixSize = int.Parse(Console.ReadLine());
 
-            string[,] matrix = new string[matrixSize, matrixSize];
+            char[,] matrix = new char[matrixSize, matrixSize];
 
             //seed matrix
 
@@ -30,7 +30,7 @@ namespace _7._Knight_Game
 
                 for (int k = 0; k < matrixSize; k++)
                 {
-                    matrix[i, k] = input[k].ToString();
+                    matrix[i, k] = input[k];
                 }
 
             }
@@ -53,7 +53,7 @@ namespace _7._Knight_Game
                 {
                     for (int k = 0; k < matrix.GetLength(1); k++)
                     {
-                        if (matrix[i, k] == "K")
+                        if (matrix[i, k] == 'K')
                         {
                             for (int j = 0; j < kniteMoves.Count; j++)
                             {
@@ -64,7 +64,7 @@ namespace _7._Knight_Game
 
                                 try
                                 {
-                                    if (matrix[i + upOrDown, k + leftOrRight] == "K")
+                                    if (matrix[i + upOrDown, k + leftOrRight] == 'K')
                                     {
                                         mostHits++;
                                     }
@@ -96,7 +96,7 @@ namespace _7._Knight_Game
 
                 if (foundHit = true && bestRow != int.MinValue && bestCol != int.MinValue)
                 {
-                    matrix[bestRow, bestCol] = "0";
+                    matrix[bestRow, bestCol] = '0';
                     counter++;
                 }
 
