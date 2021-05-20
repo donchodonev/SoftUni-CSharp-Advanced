@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Squares in Matrix", "2. 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Maximal Sum", "3. Maximal Sum\3. Maximal Sum.csproj", "{C4E312E8-931E-4A86-BB15-31860B0DA9B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Matrix Shuffling", "4. Matrix Shuffling\4. Matrix Shuffling.csproj", "{0B8DE8CE-F6C2-4BAA-A80A-8006ABE10087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Matrix Shuffling", "4. Matrix Shuffling\4. Matrix Shuffling.csproj", "{0B8DE8CE-F6C2-4BAA-A80A-8006ABE10087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Snake Moves", "5. Snake Moves\5. Snake Moves.csproj", "{CB0D80FF-1AB3-45BF-87A4-6A4FC18CCCEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Snake Moves", "5. Snake Moves\5. Snake Moves.csproj", "{CB0D80FF-1AB3-45BF-87A4-6A4FC18CCCEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Jagged Array Manipulator", "6. Jagged Array Manipulator\6. Jagged Array Manipulator.csproj", "{C52A9147-9C4C-4FCD-B328-D58AAEC45F80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Knight Game", "7. Knight Game\7. Knight Game.csproj", "{E75CF741-194D-4A21-A5C8-AE8288738168}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{CB0D80FF-1AB3-45BF-87A4-6A4FC18CCCEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB0D80FF-1AB3-45BF-87A4-6A4FC18CCCEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB0D80FF-1AB3-45BF-87A4-6A4FC18CCCEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52A9147-9C4C-4FCD-B328-D58AAEC45F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52A9147-9C4C-4FCD-B328-D58AAEC45F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52A9147-9C4C-4FCD-B328-D58AAEC45F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52A9147-9C4C-4FCD-B328-D58AAEC45F80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E75CF741-194D-4A21-A5C8-AE8288738168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E75CF741-194D-4A21-A5C8-AE8288738168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E75CF741-194D-4A21-A5C8-AE8288738168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E75CF741-194D-4A21-A5C8-AE8288738168}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
