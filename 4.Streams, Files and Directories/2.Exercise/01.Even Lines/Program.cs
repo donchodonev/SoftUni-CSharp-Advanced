@@ -24,18 +24,11 @@ namespace _01.Even_Lines
 
             File.Create(destination).Close(); 
 
-            //define chars to be replaced with @
+            //replace punctuation marks with @
 
-            char[] charsToReplace = { '-', ',', '.', '!', '?' };
-
-            //do the replacing
-
-            for (int sentence = 0; sentence < text.Length; sentence++)
+            for (int i = 0; i < text.Length; i++)
             {
-                for (int character = 0; character < charsToReplace.Length; character++)
-                {
-                    text[sentence] = text[sentence].Replace(charsToReplace[character], '@');
-                }
+                text[i] = Regex.Replace(text[i], @"[,.?!-]", "@");
             }
 
             string[] evenLinesText = new string[(text.Length / 2) + 1];
