@@ -24,7 +24,6 @@ namespace _3._Word_Count
 
             int counter = 0;
 
-            //remove dash from the start of each sentence
             foreach (var line in File.ReadAllLines(textSource))
             {
                 while (counter != inputWords.Length)
