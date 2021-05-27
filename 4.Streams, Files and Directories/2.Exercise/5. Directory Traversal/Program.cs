@@ -11,7 +11,7 @@ namespace _5._Directory_Traversal
         {
             string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
-            string currentDirectory = Directory.GetCurrentDirectory();
+            string currentDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).ToString();
 
             Dictionary<string, Dictionary<string, decimal>> files = new Dictionary<string, Dictionary<string, decimal>>();
 
@@ -38,8 +38,6 @@ namespace _5._Directory_Traversal
             }
 
             string lastExtension = string.Empty;
-
-            File.Delete($"{desktopPath}\\output.txt");
 
             foreach (var file in files
                 .OrderByDescending(x => x.Value.Keys.Count())
