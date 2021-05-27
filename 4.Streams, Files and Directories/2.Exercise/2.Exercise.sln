@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Word Count", "3. Word Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Copy Binary File", "4. Copy Binary File\4. Copy Binary File.csproj", "{349D031C-EB19-428E-B071-5D3D07FBFCA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Directory Traversal", "5. Directory Traversal\5. Directory Traversal.csproj", "{D65AF128-02CD-4CE0-8364-E7D97918D1BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{349D031C-EB19-428E-B071-5D3D07FBFCA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{349D031C-EB19-428E-B071-5D3D07FBFCA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{349D031C-EB19-428E-B071-5D3D07FBFCA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65AF128-02CD-4CE0-8364-E7D97918D1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65AF128-02CD-4CE0-8364-E7D97918D1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65AF128-02CD-4CE0-8364-E7D97918D1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65AF128-02CD-4CE0-8364-E7D97918D1BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
