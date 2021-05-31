@@ -25,9 +25,7 @@ namespace _08._Custom_Comparator
                 .Select(int.Parse)
                 .ToArray();
 
-            Func<int, int, int> firstEvenThenOddByAscending = FirstEvenThenOddByAscending;
-
-            Array.Sort(numbers, (a, b) => firstEvenThenOddByAscending(a, b));
+            Array.Sort(numbers, (a, b) => FirstEvenThenOddByAscending(a, b));
 
             Console.WriteLine(string.Join(' ', numbers));
         }
