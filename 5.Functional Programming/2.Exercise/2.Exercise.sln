@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Action Point", "1. Action Point\1. Action Point.csproj", "{45D869DA-E21B-4501-B816-075B820760B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Action Point", "01. Action Point\01. Action Point.csproj", "{45D869DA-E21B-4501-B816-075B820760B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Knights of Honor", "02. Knights of Honor\02. Knights of Honor.csproj", "{3EEFF204-A69F-4047-A5D6-8FB189AEEBE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Custom Min Function", "03. Custom Min Function\03. Custom Min Function.csproj", "{543A48E2-7390-4577-8054-4F050DF4A53F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{45D869DA-E21B-4501-B816-075B820760B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45D869DA-E21B-4501-B816-075B820760B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45D869DA-E21B-4501-B816-075B820760B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EEFF204-A69F-4047-A5D6-8FB189AEEBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EEFF204-A69F-4047-A5D6-8FB189AEEBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EEFF204-A69F-4047-A5D6-8FB189AEEBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EEFF204-A69F-4047-A5D6-8FB189AEEBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543A48E2-7390-4577-8054-4F050DF4A53F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543A48E2-7390-4577-8054-4F050DF4A53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543A48E2-7390-4577-8054-4F050DF4A53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543A48E2-7390-4577-8054-4F050DF4A53F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
