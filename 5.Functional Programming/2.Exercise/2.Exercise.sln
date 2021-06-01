@@ -15,11 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Applied Arithmetics", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Reverse And Exclude", "06. Reverse And Exclude\06. Reverse And Exclude.csproj", "{0BB58C82-3A16-49DB-9739-7F926B06D725}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Predicate For Names", "07. Predicate For Names\07. Predicate For Names.csproj", "{1214D78F-728B-44EA-B099-EC8FC9B47433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Predicate For Names", "07. Predicate For Names\07. Predicate For Names.csproj", "{1214D78F-728B-44EA-B099-EC8FC9B47433}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Custom Comparator", "08. Custom Comparator\08. Custom Comparator.csproj", "{F84E416B-F500-41D0-9876-B7B291AA8158}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. Custom Comparator", "08. Custom Comparator\08. Custom Comparator.csproj", "{F84E416B-F500-41D0-9876-B7B291AA8158}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. List Of Predicates", "09. List Of Predicates\09. List Of Predicates.csproj", "{9D2BD2A0-245E-4D15-AA86-AD80781BBE9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09. List Of Predicates", "09. List Of Predicates\09. List Of Predicates.csproj", "{9D2BD2A0-245E-4D15-AA86-AD80781BBE9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. Predicate Party!", "10. Predicate Party!\10. Predicate Party!.csproj", "{C7739C47-EDAF-47C4-96DC-CE058A5F25CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. The Party Reservation Filter Module", "11. The Party Reservation Filter Module\11. The Party Reservation Filter Module.csproj", "{38CEF783-8C35-4A57-BC53-F21E6C49ED2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{9D2BD2A0-245E-4D15-AA86-AD80781BBE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D2BD2A0-245E-4D15-AA86-AD80781BBE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D2BD2A0-245E-4D15-AA86-AD80781BBE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7739C47-EDAF-47C4-96DC-CE058A5F25CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7739C47-EDAF-47C4-96DC-CE058A5F25CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7739C47-EDAF-47C4-96DC-CE058A5F25CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7739C47-EDAF-47C4-96DC-CE058A5F25CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38CEF783-8C35-4A57-BC53-F21E6C49ED2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CEF783-8C35-4A57-BC53-F21E6C49ED2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CEF783-8C35-4A57-BC53-F21E6C49ED2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CEF783-8C35-4A57-BC53-F21E6C49ED2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
