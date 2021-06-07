@@ -36,6 +36,11 @@ namespace _8.Implementing_List_and_Stack
         }
         public int Pop()
         {
+            if (Count == 0)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+
             int poppedNum = internalArray[Count - 1];
 
             internalArray[Count - 1] = 0;
@@ -47,6 +52,13 @@ namespace _8.Implementing_List_and_Stack
         public int Peek()
         {
             return internalArray[Count - 1]; ;
+        }
+        public void ForEach(Action<int> action)
+        {
+            for (int i = 0; i < Count; i++)
+            {
+                action(internalArray[i]);
+            }
         }
     }
 }
