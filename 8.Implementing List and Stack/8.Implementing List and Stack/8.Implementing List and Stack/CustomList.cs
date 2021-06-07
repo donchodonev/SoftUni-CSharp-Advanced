@@ -162,5 +162,22 @@ namespace _8.Implementing_List_and_Stack
             }
             return false;
         }
+        public void Swap(int firstIndex, int secondIndex)
+        {
+            if (firstIndex >= Count || firstIndex < 0)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+            if (secondIndex >= Count || secondIndex < 0)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+
+            int firstIndexValue = internalArray[firstIndex];
+            int secondIndexValue = internalArray[secondIndex];
+
+            internalArray[firstIndex] = secondIndexValue;
+            internalArray[secondIndex] = firstIndexValue;
+        }
     }
 }
