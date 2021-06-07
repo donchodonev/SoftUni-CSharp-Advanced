@@ -150,5 +150,17 @@ namespace _8.Implementing_List_and_Stack
 
             internalArray = newIntArray;
         }
+
+        public bool Contains(int element)
+        {
+            for (int i = 0; i < Count; i++)
+            {
+                if (internalArray[i] == element)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }
