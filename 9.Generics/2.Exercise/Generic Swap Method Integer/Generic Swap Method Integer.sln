@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Swap Method String", "Generic Swap Method String\Generic Swap Method String.csproj", "{4979CE4E-F9EC-45D2-A541-F69109677972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Generic Swap Method Integer\Demo.csproj", "{306E1A87-F9D1-4605-9E64-0DDEC4883272}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4979CE4E-F9EC-45D2-A541-F69109677972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4979CE4E-F9EC-45D2-A541-F69109677972}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4979CE4E-F9EC-45D2-A541-F69109677972}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4979CE4E-F9EC-45D2-A541-F69109677972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306E1A87-F9D1-4605-9E64-0DDEC4883272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306E1A87-F9D1-4605-9E64-0DDEC4883272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306E1A87-F9D1-4605-9E64-0DDEC4883272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306E1A87-F9D1-4605-9E64-0DDEC4883272}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D6B03DD4-C95F-45BB-A98F-B50FFAD225CE}
+		SolutionGuid = {509FC287-0950-45F7-B4E0-4339BC43CC27}
 	EndGlobalSection
 EndGlobal
