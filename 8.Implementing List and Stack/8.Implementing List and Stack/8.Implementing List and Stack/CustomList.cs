@@ -68,14 +68,14 @@ namespace _8.Implementing_List_and_Stack
             Count++;
         }
 
-        public void ShiftToLeft(int index)
+        private void ShiftToLeft(int index)
         {
             for (int i = index; i < Count - 1; i++)
             {
                 internalArray[i] = internalArray[i + 1];
             }
         }
-        public void Shrink()
+        private void Shrink()
         {
             int[] newArray = new int[internalArray.Length / 2];
 
@@ -120,7 +120,7 @@ namespace _8.Implementing_List_and_Stack
 
             Count++;
         }
-        public void ShiftToRight(int index)
+        private void ShiftToRight(int index)
         {
             if (index >= Count || index < 0)
             {
