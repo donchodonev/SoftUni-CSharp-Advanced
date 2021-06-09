@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorsAndComparators", "IteratorsAndComparators\IteratorsAndComparators.csproj", "{B202B93D-0836-463E-8344-31EC31EAEF02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterators and Comparators", "Iterators and Comparators\Iterators and Comparators.csproj", "{7058B1DA-2D55-422F-8EE8-E0651F834DA9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{B202B93D-0836-463E-8344-31EC31EAEF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B202B93D-0836-463E-8344-31EC31EAEF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B202B93D-0836-463E-8344-31EC31EAEF02}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7058B1DA-2D55-422F-8EE8-E0651F834DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7058B1DA-2D55-422F-8EE8-E0651F834DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7058B1DA-2D55-422F-8EE8-E0651F834DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7058B1DA-2D55-422F-8EE8-E0651F834DA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

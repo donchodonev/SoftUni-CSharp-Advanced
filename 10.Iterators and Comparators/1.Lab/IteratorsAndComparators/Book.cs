@@ -13,8 +13,8 @@ namespace IteratorsAndComparators
             Authors = new List<string>(authors);
         }
 
-        public string Title { get; set; }
-        public int Year { get; set; }
-        public List<string> Authors { get; set; }
+        public string Title { get; private set; }
+        public int Year { get; private set; }
+        public IReadOnlyList<string> Authors { get; set; }
     }
 }
