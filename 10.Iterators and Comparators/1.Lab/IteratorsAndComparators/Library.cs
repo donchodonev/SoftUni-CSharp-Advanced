@@ -9,11 +9,11 @@ namespace IteratorsAndComparators
     // create a Library class and make it IEnumerable
     public class Library :IEnumerable<Book> 
     {
-        public List<Book> Books { get; private set; }
+        public SortedSet<Book> Books { get; private set; }
         //make it's constructor take one or more books via PARAMS keyword
         public Library(params Book[] books)
         {
-            Books = new List<Book>(books);
+            Books = new SortedSet<Book>(books);
         }
         //Get Enumerator method returns an IEnumerator of type Book
         public IEnumerator<Book> GetEnumerator()
