@@ -26,9 +26,13 @@ namespace IteratorsAndComparators
                 {
                     Console.WriteLine(listy.Move());
                 }
-                else if (nextCommand.Contains("Print"))
+                else if (nextCommand =="Print")
                 {
                     listy.Print();
+                }
+                else if (nextCommand == "PrintAll")
+                {
+                    listy.PrintAll();
                 }
                 else if (nextCommand.Contains("HasNext"))
                 {

@@ -1,17 +1,18 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
 namespace IteratorsAndComparators
 {
-    public class ListyIterator<T>
+    public class ListyIterator<T> : IEnumerable<T>
     {
         private int index;
         public ListyIterator(params T[] colItems)
         {
             Create(colItems);
         }
-        public List<T> Collection { get; set; }
+        private List<T> Collection { get; set; }
 
         public bool HasNext()
         {
@@ -46,11 +47,35 @@ namespace IteratorsAndComparators
             {
                 Console.WriteLine($"{Collection[index]}");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                Console.WriteLine("Invalid Operation!");
-                Environment.Exit(0);
+                Console.WriteLine(ex.Message);
             }
+        }
+
+        public void PrintAll()
+        {
+            try
+            {
+                Console.WriteLine(string.Join(' ', Collection));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            foreach (T element in Collection)
+            {
+                yield return element;
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }
