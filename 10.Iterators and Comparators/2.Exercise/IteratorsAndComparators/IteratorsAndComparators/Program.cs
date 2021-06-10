@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace IteratorsAndComparators
 {
@@ -6,40 +7,37 @@ namespace IteratorsAndComparators
     {
         public static void Main(string[] args)
         {
-            string[] commandArgs = Console.ReadLine()
-                    .Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            string command = Console.ReadLine();
 
-            string[] elements = new string[commandArgs.Length - 1];
+            Stack<int> myStack = new Stack<int>();
 
-            for (int i = 1; i < elements.Length + 1; i++)
+            while (!command.Contains("END"))
             {
-                elements[i - 1] = commandArgs[i];
+                if (command.Contains("Push"))
+                {
+                    int[] intsToPush = command
+                        .Substring(4)
+                        .Split(", ")
+                        .Select(int.Parse)
+                        .ToArray();
+
+                    myStack.Push(intsToPush);
+                }
+                else
+                {
+                    myStack.Pop();
+                }
+
+                command = Console.ReadLine();
             }
 
-            ListyIterator<string> listy = new ListyIterator<string>(elements);
-
-            string nextCommand = Console.ReadLine();
-
-            while (!nextCommand.ToLower().Contains("end"))
+            foreach (var element in myStack)
             {
-                if (nextCommand.Contains("Move"))
-                {
-                    Console.WriteLine(listy.Move());
-                }
-                else if (nextCommand =="Print")
-                {
-                    listy.Print();
-                }
-                else if (nextCommand == "PrintAll")
-                {
-                    listy.PrintAll();
-                }
-                else if (nextCommand.Contains("HasNext"))
-                {
-                    Console.WriteLine(listy.HasNext());
-                }
-
-                nextCommand = Console.ReadLine();
+                Console.WriteLine(element);
+            }
+            foreach (var element in myStack)
+            {
+                Console.WriteLine(element);
             }
         }
     }
